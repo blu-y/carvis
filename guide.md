@@ -13,14 +13,29 @@ $ sudo ubuntu-drivers autoinstall
 ~~~
 $ gnome-control-center
 ~~~
+
 Region & Language > Manage Installed Languages > Install
 
-<img src="https://user-images.githubusercontent.com/102652794/183265253-73788c99-fb5b-43b9-ab84-aa8c25843c6c.png" alt="language install" width="400"/>
+<img src="https://user-images.githubusercontent.com/102652794/183265253-73788c99-fb5b-43b9-ab84-aa8c25843c6c.png" alt="language install" width="500"/>
+
 ~~~
 $ sudo reboot
 $ ibus-setup
 ~~~
-## 5. Install ROS package
+
+IBus Preferences > Input Method > Add > Korean > Hangul
+
+<img src="https://user-images.githubusercontent.com/102652794/183265434-70672774-7c12-4c7c-891f-4d4ce4c5e9d6.png" alt="ibus" width="500"/>
+
+Korean - Hangul > Preferences > Hangul Toggle Key > Add [toggle key]
+~~~
+$ gnome-control-center
+~~~
+Region & Language > Input Sources > + > Korean > Korean (Hangul) > Add > English (US) > - 
+
+<img src="https://user-images.githubusercontent.com/102652794/183265578-fd17c0c9-52ea-4961-becd-273cf62c00c8.png" alt="ibus" width="500"/>
+
+## 5. Install ROS Melodic
 
 ~~~
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
