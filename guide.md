@@ -49,3 +49,19 @@ $ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator p
 $ sudo rosdep init
 $ rosdep update
 ~~~
+
+## 6. Install Anaconda & create env
+Download anaconda
+https://www.anaconda.com/products/distribution
+~~~
+$ cd ~/Downloads/
+$ sha256sum Anaconda3-2022.05-Linux-x86_64.sh
+$ bash Anaconda3-2022.05-Linux-x86_64.sh
+$ source ~/.bashrc
+(base)$ conda --version
+(base)$ conda search python
+(base)$ conda create -n vision python=3.9
+(base)$ conda activate vision
+(vision)$ conda deactivate
+(base)$ 
+~~~
