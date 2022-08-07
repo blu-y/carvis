@@ -37,13 +37,17 @@ Region & Language > Input Sources > + > Korean > Korean (Hangul) > Add > English
 <img src="https://user-images.githubusercontent.com/102652794/183265578-fd17c0c9-52ea-4961-becd-273cf62c00c8.png" alt="ibus" width="500"/>
 
 ### 4-2. Editing ~/.bashrc to use shortcut command using alias
-`gedit ~/.bashrc`
+`$ gedit ~/.bashrc`
 
-Edit ~/.bashrc, use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
+~/.bashrc를 수정하여 단축키를 설정할 수 있다.
+
+use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
 
 <img src="https://user-images.githubusercontent.com/102652794/183287749-6744f4a4-f2f8-4cad-94cf-b58363b35dd2.png" alt="alias" width="600"/>
 
-After editing, restart terminal or `$ source ~/.bashrc` to update ~/.bashrc
+파일을 수정한 후, terminal을 재시작하거나 `$ source ~/.bashrc` 명령어를 이용하여 ~/.bashrc 의 수정사항을 적용할 수 있다.
+
+위 이미지대로 수정 후 한번 적용하였다면, 앞으로는 `$ source ~/.bashrc` 를 `$ sb` 로 실행할 수 있다
 
 ### 4-3. Useful softwares
 
@@ -68,11 +72,11 @@ Download anaconda
 https://www.anaconda.com/products/distribution
 ~~~
 $ cd ~/Downloads/
-$ sha256sum Anaconda3-2022.05-Linux-x86_64.sh
+$ sha256sum Anaconda3-2022.05-Linux-x86_64.sh # downloaded file name, tab key will help autofill existing file
 $ bash Anaconda3-2022.05-Linux-x86_64.sh
 $ source ~/.bashrc
-(base)$ conda --version
-(base)$ conda search python
+(base)$ conda --version # check version
+(base)$ conda search python # check available python version
 (base)$ conda create -n vision python=3.7
 (base)$ conda activate vision
 (vision)$ conda deactivate
@@ -88,8 +92,9 @@ relaunch terminal
 
 ### 6.2 Difference between conda and default terminal
 
-<img src="https://user-images.githubusercontent.com/102652794/183282401-4b97f8dc-c145-4b31-92ed-a23280893728.png" alt="conda python" width="500"/>
+<img src="https://user-images.githubusercontent.com/102652794/183288282-b767f929-f457-4429-bd87-28b7db62965c.png" alt="conda env" width="600"/>
 
+기본에서 실행하면 python=2.7, python3=3.6, (base)에서는 python=3.9, (vision)에서는 python=3.7을 확인할 수 있다.
 
 ## 7. Git
 ~~~
