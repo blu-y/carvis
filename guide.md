@@ -85,8 +85,15 @@ relaunch terminal
 
 ## 8. Python setting
 ~~~
-(base)$ conda install pyqt
-(base)$ pip install --upgrade pip
-(base)$ pip install --upgrade setuptools
-(base)$ cd ~/Desktop/carvis/yolov5-master
-(base)$ pip install -r requirements.txt
+(base)$ conda activate vision
+(vision)$ conda install pyqt
+(vision)$ conda install opencv
+(vision)$ cd ~/Desktop/carvis/yolov5-master
+(vision)$ pip install -r requirements.txt
+~~~
+~~~
+# if error or required
+(vision)$ pip install --upgrade pip
+(vision)$ pip install --upgrade setuptools
+(vision)$ pip install -r requirements.txt
+~~~
