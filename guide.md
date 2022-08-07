@@ -65,3 +65,19 @@ $ source ~/.bashrc
 (vision)$ conda deactivate
 (base)$ 
 ~~~
+
+# 6.1. Anaconda auto activation setting 
+`$ conda config --set auto_activate_base false # auto activation off`
+
+`$ conda config --set auto_activate_base true # auto activation on`
+
+relaunch terminal
+
+# 6.2 Difference between conda and default terminal
+
+<img src="https://user-images.githubusercontent.com/102652794/183282401-4b97f8dc-c145-4b31-92ed-a23280893728.png" alt="conda python" width="500"/>
+
+## 7. Git
+~~~
+(base)$ cd ~/Desktop/
+(base)$ git clone https://github.com/blu-y/carvis.git
