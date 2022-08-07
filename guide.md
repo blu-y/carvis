@@ -9,7 +9,8 @@ $ sudo apt-get update
 $ sudo apt-get updrade
 $ sudo ubuntu-drivers autoinstall
 ~~~
-## 4. Korean setting
+## 4. Useful settings and softwares
+### 4-1. Korean setting
 ~~~
 $ gnome-control-center
 ~~~
@@ -34,6 +35,18 @@ $ gnome-control-center
 Region & Language > Input Sources > + > Korean > Korean (Hangul) > Add > English (US) > - 
 
 <img src="https://user-images.githubusercontent.com/102652794/183265578-fd17c0c9-52ea-4961-becd-273cf62c00c8.png" alt="ibus" width="500"/>
+
+### 4-2. Editing ~/.bashrc to use shortcut command using alias
+`gedit ~/.bashrc`
+
+Edit ~/.bashrc, use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
+
+<img src="https://user-images.githubusercontent.com/102652794/183287749-6744f4a4-f2f8-4cad-94cf-b58363b35dd2.png" alt="alias" width="600"/>
+
+After editing, restart terminal or `$ source ~/.bashrc` to update ~/.bashrc
+
+### 4-3. Useful softwares
+
 
 ## 5. Install ROS Melodic
 
@@ -60,22 +73,23 @@ $ bash Anaconda3-2022.05-Linux-x86_64.sh
 $ source ~/.bashrc
 (base)$ conda --version
 (base)$ conda search python
-(base)$ conda create -n vision python=3.9
+(base)$ conda create -n vision python=3.7
 (base)$ conda activate vision
 (vision)$ conda deactivate
 (base)$ 
 ~~~
 
-# 6.1. Anaconda auto activation setting 
+### 6.1. Anaconda auto activation setting 
 `$ conda config --set auto_activate_base false # auto activation off`
 
 `$ conda config --set auto_activate_base true # auto activation on`
 
 relaunch terminal
 
-# 6.2 Difference between conda and default terminal
+### 6.2 Difference between conda and default terminal
 
 <img src="https://user-images.githubusercontent.com/102652794/183282401-4b97f8dc-c145-4b31-92ed-a23280893728.png" alt="conda python" width="500"/>
+
 
 ## 7. Git
 ~~~
