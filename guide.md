@@ -81,3 +81,12 @@ relaunch terminal
 ~~~
 (base)$ cd ~/Desktop/
 (base)$ git clone https://github.com/blu-y/carvis.git
+~~~
+
+## 8. Python setting
+~~~
+(base)$ conda install pyqt
+(base)$ pip install --upgrade pip
+(base)$ pip install --upgrade setuptools
+(base)$ cd ~/Desktop/carvis/yolov5-master
+(base)$ pip install -r requirements.txt
