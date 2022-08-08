@@ -183,7 +183,27 @@ $ cd ~/MoraiLauncher_Lin/
 $ ./MORAISim.sh
 ~~~
 
-Open new termianl
+### 9-2. ROS connection
 ~~~
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ~~~
+
+MORAI simulator에서 F3을 눌러 카메라를 추가하고 ROS로 연결한다
+
+<img src="https://user-images.githubusercontent.com/102652794/183429535-76548a48-ab3d-43eb-bb42-f684987ee815.png" alt="sensor" width="250"/>
+
+`$ rostopic list` 와 `$ rviz` 를 통해 확인할 수 있다
+
+<img src="https://user-images.githubusercontent.com/102652794/183430128-01c45491-c5e1-4ce6-ad8b-9e7316ec10a0.png" alt="rostopic" width="600"/>
+
+`$ rviz` > `Add` > `By topic` > `/image_jpeg/compressed` > `image`
+
+<img src="https://user-images.githubusercontent.com/102652794/183430760-80a2c438-3fe4-4066-9c18-9372c65ab362.png" alt="rviz" width="650"/>
+
+
+
+
+
+
+
+
