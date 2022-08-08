@@ -122,3 +122,32 @@ Terminal을 재시작하면 적용된다
 (vision)$ pip install -r requirements.txt
 (vision)$ pip install rospkg
 ~~~
+
+## 8. Git
+### 8-1. Setting
+~~~
+$ git config --global user.name "blu"
+$ git config --global user.email "a_o@kakao.com"
+~~~
+
+### 8-2. First commit
+~~~
+$ git init
+$ git add .
+$ git commit -m "first commit"
+$ git remote add origin git@github.com:blu-y/carvis.git
+$ git push origin master
+~~~
+
+### 8-3. Modify
+~~~
+$ git clone https://github.com/blu-y/carvis.git
+# modify test.txt(example)
+$ git add .
+$ git commit -m "test"
+$ git checkout -b test
+$ git remote set-url origin git@github.com:blu-y/carvis.git
+$ git push origin test
+~~~
+
+For SSH error refer to [Issue#5 git SSH](https://github.com/blu-y/carvis/issues/5)
