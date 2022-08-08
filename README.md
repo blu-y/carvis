@@ -9,6 +9,10 @@ $ sudo apt-get update
 $ sudo apt-get updrade
 $ sudo ubuntu-drivers autoinstall
 ~~~
+
+If `Ctrl + Alt + T` is unavailable, use `Ctrl + Alt + F3`
+
+
 ## 4. Useful settings and softwares
 ### 4-1. Korean setting
 ~~~
@@ -52,13 +56,13 @@ use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
 ### 4-3. Terminator
 `$ sudo apt install terminator -y`
 
-Ctrl + Shift + E : split vertically
+`Ctrl + Shift + E` split vertically
 
-Ctrl + Shift + O : split horizontally
+`Ctrl + Shift + O` split horizontally
 
-Ctrl + Shift + W : close window
+`Ctrl + Shift + W` close window
 
-Alt + Arrow : move between window
+`Alt + Arrow` move between window
 
 ### 4-4. Useful softwares
 [Chrome](https://www.google.com/chrome/)
