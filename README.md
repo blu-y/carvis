@@ -144,7 +144,14 @@ $ git push origin master
 
 ### 8-3. Modify
 ~~~
-$ git clone git@github.com:blu-y/carvis.git
+#Initialize (only on first time)
+$ mkdir carvis
+$ cd carvis/
+$ git init
+$ git remote add origin git@github.com:blu-y/carvis.git
+~~~
+~~~
+$ git pull origin master
 # modify test.txt(example)
 $ git add .
 $ git commit -m "Created test.txt"
