@@ -49,7 +49,23 @@ use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
 
 위 이미지대로 수정 후 한번 적용하였다면, 앞으로는 `$ source ~/.bashrc` 를 `$ sb` 로 실행할 수 있다
 
-### 4-3. Useful softwares
+### 4-3. Terminator
+`$ sudo apt install terminator -y`
+
+Ctrl + Shift + E : split vertically
+
+Ctrl + Shift + O : split horizontally
+
+Ctrl + Shift + W : close window
+
+Alt + Arrow : move between window
+
+### 4-4. Useful softwares
+[Chrome](https://www.google.com/chrome/)
+
+[Slack](https://slack.com/intl/ko-kr/downloads/linux)
+
+[VS Code](https://code.visualstudio.com/)
 
 
 ## 5. Install ROS Melodic
