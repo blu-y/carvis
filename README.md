@@ -144,13 +144,12 @@ $ git push origin master
 
 ### 8-3. Modify
 ~~~
-$ git clone https://github.com/blu-y/carvis.git
+$ git clone git@github.com:blu-y/carvis.git
 # modify test.txt(example)
 $ git add .
-$ git commit -m "test"
-$ git checkout -b test
-$ git remote set-url origin git@github.com:blu-y/carvis.git
-$ git push origin test
+$ git commit -m "Created test.txt"
+$ git checkout -b blu-patch-1
+$ git push origin blu-patch-1
 ~~~
 
 For SSH error refer to [Issue#5 git SSH](https://github.com/blu-y/carvis/issues/5)
