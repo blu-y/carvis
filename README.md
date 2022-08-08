@@ -1,4 +1,4 @@
-# CARVIS
+# Vision
 ## 1. Get ubuntu iso image
 https://releases.ubuntu.com/18.04.6/
 ## 2. Make USB Installer
