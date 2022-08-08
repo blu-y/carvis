@@ -362,6 +362,7 @@ if cap.isOpened():
         key = cv2.waitKey(frameRate)
         if key == 27:
             break
+else: print("no video source")
 cv2.destroyAllWindows()
 
 '''
