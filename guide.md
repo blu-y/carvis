@@ -113,8 +113,27 @@ relaunch terminal
 기본에서 실행하면 python=2.7, python3=3.6, (base)에서는 python=3.9, (vision)에서는 python=3.7을 확인할 수 있다.
 
 ## 7. Git
+### 7-0. User profile
 ~~~
-(base)$ git clone https://github.com/blu-y/carvis.git
+$ git config --global user.name "blu"
+$ git config --global user.email "a_o@kakao.com"
+~~~
+
+### 7-1. New repository
+~~~
+$ git init
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/blu-y/ros.git
+$ git push origin master
+~~~
+
+### 7-2. Modify
+~~~
+$ git clone https://github.com/blu-y/carvis.git
+# modify
+$ git add .
+$ git commit -m "second commit"
+$ git push origin master
 ~~~
 
 ## 8. Python setting
