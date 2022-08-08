@@ -115,6 +115,7 @@ relaunch terminal
 ## 7. Python setting
 ~~~
 (base)$ conda activate vision
+(vision)$ git clone https://github.com/blu-y/carvis.git
 (vision)$ cd ~/carvis/yolov5-master
 (vision)$ pip install -r requirements.txt
 (vision)$ pip install rospkg
