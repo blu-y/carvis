@@ -200,6 +200,14 @@ MORAI simulator에서 F3을 눌러 카메라를 추가하고 ROS로 연결한다
 
 <img src="https://user-images.githubusercontent.com/102652794/183430760-80a2c438-3fe4-4066-9c18-9372c65ab362.png" alt="rviz" width="650"/>
 
+~~~
+$ conda activate vision
+(vision)$ cd ~/carvis/Curved-Lane-Lines-master/
+(vision)$ python curved_sim.py
+~~~
+
+<img src="https://user-images.githubusercontent.com/102652794/183444521-3c0b787b-281f-438a-85b3-ede82c187e85.png" alt="curved_sim" width="900"/>
+
 
 
 
