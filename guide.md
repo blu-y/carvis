@@ -114,7 +114,6 @@ relaunch terminal
 
 ## 7. Git
 ~~~
-(base)$ cd ~/Desktop/
 (base)$ git clone https://github.com/blu-y/carvis.git
 ~~~
 
