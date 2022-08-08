@@ -100,6 +100,8 @@ $ source ~/.bashrc
 (base)$ 
 ~~~
 
+sha256sum is for validating installer file, refer to [Anaconda hashes](https://docs.anaconda.com/anaconda/install/hashes/)
+
 ### 6.1. Anaconda auto activation setting 
 `$ conda config --set auto_activate_base false # auto activation off`
 
