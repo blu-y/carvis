@@ -116,13 +116,13 @@ Terminal을 재시작하면 적용된다
 
 ## 7. Python setting
 ~~~
-(base)$ conda deactivate
-$ sudo apt install python-catkin-tools
-$ conda activate vision
+(base)$ conda activate vision
 (vision)$ git clone https://github.com/blu-y/carvis.git
 (vision)$ cd ~/carvis/yolov5-master
-(vision)$ pip install -r requirements.txt
-(vision)$ pip install rospkg
+(vision)$ pip install -r requirements.txt 
+(vision)$ pip install rospkg pyqt5 pyserial
+(vision)$ sudo apt install python-catkin-tools
+(vision)$ sudo apt install libpcap.dev
 ~~~
 
 ## 8. Git
