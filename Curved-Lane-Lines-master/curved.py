@@ -5,6 +5,10 @@ import os
 import glob
 import matplotlib.pyplot as plt
 import pickle
+import rospy
+from std_msgs.msg import Int32
+rospy.init_node("lane")
+steer_pub = rospy.Publisher("/st", Int32, queue_size=20)
 
 #%matplotlib inline
 
@@ -280,8 +284,9 @@ def get_curve(img, leftx, rightx):
     r_fit_x_int = right_fit_cr[0]*img.shape[0]**2 + right_fit_cr[1]*img.shape[0] + right_fit_cr[2]
     lane_center_position = (r_fit_x_int + l_fit_x_int) /2
     center = (car_pos - lane_center_position) * xm_per_pix / 10
+    cen = (lane_center_position) * xm_per_pix / 10
     # Now our radius of curvature is in meters
-    return (left_curverad, right_curverad, center)
+    return (left_curverad, right_curverad, center, cen)
 
 def draw_lanes(img, left_fit, right_fit):
     ploty = np.linspace(0, img.shape[0]-1, img.shape[0])
@@ -335,23 +340,25 @@ def vid_pipeline(img):
     font = cv2.FONT_HERSHEY_DUPLEX
     fontColor = (0, 0, 0)
     fontSize=0.5
-    cv2.putText(img, 'Curvature: {:.3f} R'.format(1000*1/lane_curve), (240, 320), font, fontSize, fontColor, 2)
+    cv2.putText(img, 'Curvature: {:.3f} R'.format(np.sign(curverad[3])*1000*1/lane_curve), (240, 320), font, fontSize, fontColor, 2)
     #print('Curvature: {:.3f} R'.format(1000*1/lane_curve))
     #cv2.putText(img, 'Vehicle offset: {:.4f} m'.format(curverad[2]), (240, 340), font, fontSize, fontColor, 2)
-    return img
+    return img, np.sign(curverad[3])*1000*1/lane_curve, 
 
 right_curves, left_curves = [],[]
 
 cap = cv2.VideoCapture('videoplayback.mp4')
-frameRate = 30
+frameRate = 100
 if cap.isOpened():
     while True:
         ret, img = cap.read()
         if not(ret):
             break
-        cv2.imshow('original', img)
-        img = vid_pipeline(img)
+        #cv2.imshow('original', img)
+        img, cur = vid_pipeline(img)
         cv2.imshow('lane', img)
+        cur = int(cur*200)
+        steer_pub.publish(cur)
         key = cv2.waitKey(frameRate)
         if key == 27:
             break
