@@ -167,7 +167,7 @@ $ git push origin blu-patch-1
 
 For SSH error refer to [Issue#5 git SSH](https://github.com/blu-y/carvis/issues/5)
 
-## 8. MORAI Simulator
+## 9. MORAI Simulator (Editing)
 ~~~
 $ sudo apt install ros-melodic-rosbridge-server
 $ sudo apt install ros-melodic-velodyne
