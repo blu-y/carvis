@@ -104,7 +104,9 @@ $ source ~/.bashrc
 
 `$ conda config --set auto_activate_base true # auto activation on`
 
-relaunch terminal
+Terminal을 켰을 때 (base) 환경으로 자동 시작 설정
+
+Terminal을 재시작하면 적용된다
 
 ### 6.2 Difference between conda and default terminal
 
