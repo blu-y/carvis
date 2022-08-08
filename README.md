@@ -67,6 +67,7 @@ Alt + Arrow : move between window
 
 [VS Code](https://code.visualstudio.com/)
 
+[MS Teams](https://www.microsoft.com/ko-kr/microsoft-teams/download-app)
 
 ## 5. Install ROS Melodic
 
