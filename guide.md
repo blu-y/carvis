@@ -115,14 +115,7 @@ relaunch terminal
 ## 7. Python setting
 ~~~
 (base)$ conda activate vision
-(vision)$ conda install pyqt
-(vision)$ conda install opencv
 (vision)$ cd ~/carvis/yolov5-master
 (vision)$ pip install -r requirements.txt
-~~~
-~~~
-# if error or required
-(vision)$ pip install --upgrade pip
-(vision)$ pip install --upgrade setuptools
-(vision)$ pip install -r requirements.txt
+(vision)$ pip install rospkg
 ~~~
