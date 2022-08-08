@@ -168,7 +168,22 @@ $ git push origin blu-patch-1
 For SSH error refer to [Issue#5 git SSH](https://github.com/blu-y/carvis/issues/5)
 
 ## 9. MORAI Simulator (Editing)
+Download [MORAI Launcher](https://morai-sim-for-wego-help.scrollhelp.site/user-manual/-10) amd extract at /home/
 ~~~
+$ cd ~/MoraiLauncher_Lin/
+$ chmod +x MORAISim.sh
+$ chmod +x MoraiLauncher_Lin.x86_64
 $ sudo apt install ros-melodic-rosbridge-server
 $ sudo apt install ros-melodic-velodyne
+~~~
+
+### 9-1. Launch
+~~~
+$ cd ~/MoraiLauncher_Lin/
+$ ./MORAISim.sh
+~~~
+
+Open new termianl
+~~~
+$ roslaunch rosbridge_server rosbridge_websocket.launch
 ~~~
