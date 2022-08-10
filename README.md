@@ -219,4 +219,4 @@ rviz status error 시
 
 rviz에서 Fixed Frame을 frame_id로 변경하여 실행하면 정상적으로 Pointcloud를 확인할 수 있다.
 
-<img src="https://user-images.githubusercontent.com/102652794/183826350-2f4ce3de-62f3-481d-9b55-8507bca8997e.png" alt="rviz" width="550"/>
+<img src="https://user-images.githubusercontent.com/102652794/183826350-2f4ce3de-62f3-481d-9b55-8507bca8997e.png" alt="rviz" width="700"/>
