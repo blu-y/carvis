@@ -208,10 +208,15 @@ $ conda activate vision
 
 <img src="https://user-images.githubusercontent.com/102652794/183444521-3c0b787b-281f-438a-85b3-ede82c187e85.png" alt="curved_sim" width="900"/>
 
+같은 방법으로 Lidar 또한 연결할 수 있다.
 
+<img src="https://user-images.githubusercontent.com/102652794/183824024-1c9cafa1-5104-4326-a190-e000e694443a.png" alt="lidar setting" width="400"/>
 
+rviz status error 시 
+`$ rostopic echo /lidar3D --noarr` 로 frame_id를 확인한다
 
+<img src="https://user-images.githubusercontent.com/102652794/183824087-aa02c147-403c-4e5b-b6ef-b3223cc1bc44.png" alt="lidar echo" width="500"/>
 
+rviz에서 Fixed Frame을 frame_id로 변경하여 실행하면 정상적으로 Pointcloud를 확인할 수 있다.
 
-
-
+<img src="https://user-images.githubusercontent.com/102652794/183826350-2f4ce3de-62f3-481d-9b55-8507bca8997e.png" alt="rviz" width="550"/>
