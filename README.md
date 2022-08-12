@@ -161,6 +161,7 @@ $ git pull origin master
 # modify test.txt(example)
 $ git add .
 $ git commit -m "Created test.txt"
+# for updating deleted or revised file $ git commit -a -m "commit message"
 $ git checkout -b blu-patch-1
 $ git push origin blu-patch-1
 ~~~
