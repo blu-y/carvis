@@ -25,18 +25,7 @@ from glob import glob
 from os import path
 
 def label(i):
-    # labels
-    # 0 = sign / 1 = green / 2 = left / 3 = yellow / 4 = red / 5 = GA / 6 = RA / 7 = rest
-
-    if i['class'] == 'traffic_sign': return 0
-    if i['attribute'][0]['red'] == 'on':
-        if i['attribute'][0]['left_arrow'] == 'on' : return 6
-        return 4
-    if i['attribute'][0]['yellow'] == 'on': return 3
-    if i['attribute'][0]['green'] == 'on': 
-        if i['attribute'][0]['left_arrow'] == 'on' : return 5
-        return 1
-    return 7
+    return 0
 
 def convert(size, box):
     #box: coco형식 xmin , ymin , w , h
