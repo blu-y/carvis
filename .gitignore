@@ -1,4 +1,3 @@
 Curved-Lane-Lines-master/videoplayback.mp4
-!datasets/
-datasets/
-!datasets/ds/j2y_old.py
+datasets/*
+!datasets/ds/*
