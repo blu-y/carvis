@@ -1,4 +1,5 @@
 Curved-Lane-Lines-master/videoplayback.mp4
 !datasets/
+!datasets/ds/
 datasets/*
 !datasets/ds/
