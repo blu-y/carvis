@@ -160,6 +160,7 @@ $ git remote add origin git@github.com:blu-y/carvis.git
 $ git pull origin master
 # modify test.txt(example)
 $ git add .
+# for updating deleted or revised file $ git add -u .
 $ git commit -m "Created test.txt"
 # for updating deleted or revised file $ git commit -a -m "commit message"
 $ git checkout -b blu-patch-1
