@@ -1,5 +1,11 @@
 Curved-Lane-Lines-master/videoplayback.mp4
 !datasets/
 !datasets/ds/
+!datasets/ds/images/
+!datasets/ds/json/
+!datasets/ds/labels/
 datasets/*
 !datasets/ds/
+!datasets/ds/images/
+!datasets/ds/json/
+!datasets/ds/labels/
