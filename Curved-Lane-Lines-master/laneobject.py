@@ -9,6 +9,7 @@ import torch
 from time import time
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5n')
+#model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', source='local')
 model.cuda()
 #model.cpu()
 
