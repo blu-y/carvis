@@ -43,7 +43,7 @@ dataset
 └──j2y.py  ← put this file here
 ```
 ```
-$ cd ~/carvis/datasets
+$ cd ~/carvis/datasets/datasets_sample
 $ python3 j2y.py
 ```
 
