@@ -2,7 +2,7 @@
 
 ## [2. Vision](https://blu-y.github.io/carvis/guide/vision) 완료
 
-## [3. LiDAR](https://blu-y.github.io/carvis/guide/lidar)
+## [3. LiDAR](https://blu-y.github.io/carvis/guide/lidar) 완료
 
 ## [4. Control](https://blu-y.github.io/carvis/guide/control)
 
