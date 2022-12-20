@@ -1,11 +1,11 @@
-## [Ubuntu Initial Setting](https://blu-y.github.io/carvis/guide/ubuntu_setting)
+## [1. Ubuntu Initial Setting](https://blu-y.github.io/carvis/guide/ubuntu_setting)
 
-## [Vision](https://blu-y.github.io/carvis/guide/vision)
+## [2. Vision](https://blu-y.github.io/carvis/guide/vision)
 
-## [LiDAR](https://blu-y.github.io/carvis/guide/lidar)
+## [3. LiDAR](https://blu-y.github.io/carvis/guide/lidar)
 
-## [Localization](https://blu-y.github.io/carvis/guide/loc)
+## [4. Localization](https://blu-y.github.io/carvis/guide/loc)
 
-## [Simulation](https://blu-y.github.io/carvis/guide/sim)
+## [5. Control](https://blu-y.github.io/carvis/guide/control)
 
-## [Control](https://blu-y.github.io/carvis/guide/control)
+## [6. Simulation](https://blu-y.github.io/carvis/guide/sim)
