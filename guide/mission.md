@@ -25,9 +25,10 @@ Rosbag을 이용하면 지정한 topic의 정보를 녹화하거나 재생할 �
 `$ roslaunch bag_record.launch` 명령을 통해 해당 topic을 녹화할 수 있으며,
 `$ rosbag play [bagfile]` 명령을 통해 해당 bag file을 재생할 수 있다.
 
-<!--
-## 2. Cone driving
 
-LiDAR만을 이용하여 cone으로 이루어진 도로를 주행하는 미션이다.
+## 2. Cone driving
+내용 추가 필요
+<!--
+Cone으로 이루어진 도로를 주행하는 미션이다.
 LiDAR의 pointcloud를 voxel 필터를 이용하여 간소화 한 후, 거리 필터와 euclidean clustering을 이용하여 각각의 cone을 clustering한다.
 -->
