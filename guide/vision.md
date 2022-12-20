@@ -161,9 +161,9 @@ $ python3 yolop_opt.py
 
 ### 4.2 Result
 
-<img src="src/vision4.2.1.png" width="320"/>
-<img src="src/vision4.2.2.png" width="334"/>
-<img src="src/vision4.2.3.png" width="320"/>
+<img src="src/vision4.2.1.png" width="315"/>
+<img src="src/vision4.2.2.png" width="325"/>
+<img src="src/vision4.2.3.png" width="315"/>
 
 차선 인식이 매우 잘 되는것을 확인할 수 있었다. 다만 YOLOv5와 YOLOP를 동시에 실행하여 object detection과 lane detection을 따로 수행하여 CPU만으로 처리하면 delay가 2~3초 정도 발생하는 것을 확인할 수 있었다. GPU를 사용하는 것을 권장한다.
 
