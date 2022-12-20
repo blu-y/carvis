@@ -1,9 +1,11 @@
 ## [Ubuntu Initial Setting](https://blu-y.github.io/carvis/ubuntu_setting)
 
-## [VISION]
+## [Vision]
 
-## [LIDAR]
+## [LiDAR]
 
-## [LOC]
+## [Localization]
 
-## [CONTROL]
+## [Simulation]
+
+## [Control]
