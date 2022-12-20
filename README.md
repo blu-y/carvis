@@ -1,4 +1,4 @@
-## [Ubuntu Initial Setting](https://blu-y.github.io/carvis/ubuntu_setting)
+## [Ubuntu Initial Setting](https://blu-y.github.io/carvis/guide/ubuntu_setting)
 
 ## [Vision](https://blu-y.github.io/carvis/vision)
 
