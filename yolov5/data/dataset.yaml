@@ -1,0 +1,7 @@
+path: ../datasets/ds
+train: images/train
+val: images/val
+
+# Classes
+nc: 4  # number of classes
+names: ['Red', 'Green', 'Green Arrow', 'Yellow']
