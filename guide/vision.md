@@ -16,7 +16,7 @@ $ python3 curved_sim.py #for MORAI simulation
 
 ### 1.2 Result
 
-<img src="src/vision1.2.1.png" width="900"/>
+<img src="src/vision1.2.png" width="900"/>
 <img src="src/vision1.2.2.png" width="450"/>
 <img src="src/vision1.2.3.png" width="443"/>
 
