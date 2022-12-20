@@ -167,12 +167,18 @@ $ python3 yolop_opt.py
 
 차선 인식이 매우 잘 되는것을 확인할 수 있었다. 다만 YOLOv5와 YOLOP를 동시에 실행하여 object detection과 lane detection을 따로 수행하여 CPU만으로 처리하면 delay가 2~3초 정도 발생하는 것을 확인할 수 있었다. GPU를 사용하는 것을 권장한다.
 
-**Datasets:**  
-[AI HUB 신호등/도로표지판 인지 영상(수도권 외)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=188)  
+**Datasets:**
+
+[AI HUB 신호등/도로표지판 인지 영상(수도권 외)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=188)
+
 [ETRI 신호등 데이터셋](https://nanum.etri.re.kr/share/kimjy/etri_traffic_light)
 
-**Referece:**  
-[Curved Lane Lines](https://github.com/kemfic/Curved-Lane-Lines)  
-[YOLOv5](https://github.com/ultralytics/yolov5)  
-[YOLO ROS](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros)  
-[YOLOP](https://github.com/hustvl/YOLOP)  
+**Referece:**
+
+[Curved Lane Lines](https://github.com/kemfic/Curved-Lane-Lines)
+
+[YOLOv5](https://github.com/ultralytics/yolov5)
+
+[YOLO ROS](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros)
+
+[YOLOP](https://github.com/hustvl/YOLOP)
