@@ -126,10 +126,10 @@ $ catkin build darnet_ros -DCMAKE_BLUID_TYPE=Release
 ```
 ### 3.2 Train & Usage
 실시간으로 데이터를 받아서 물체를 탐지하기 위하여 cam의 정보를 읽어드릴 필요가 있다.
-darknet_ros/darknet_ros/launch/darknet_ros.launch 파일의 6번째 줄의 default 안의 내용을 다음처럼 사용하는 topic으로 수정해 준다.
-`<arg name="image" default="/camera/rgb/image_raw" />`
-`<arg name="image" default="/camera/color/image_raw" />`
-`<arg name="image" default="/camera/color/image_raw/compressed" />`
+darknet_ros/darknet_ros/launch/darknet_ros.launch 파일의 6번째 줄의 default 안의 내용을 다음처럼 사용하는 topic으로 수정해 준다.  
+`<arg name="image" default="/camera/rgb/image_raw" />`  
+`<arg name="image" default="/camera/color/image_raw" />`  
+`<arg name="image" default="/camera/color/image_raw/compressed" />`  
 launch file에서 다음의 줄을 수정해 주어야 된다.
 
 ```
@@ -147,8 +147,16 @@ config_file 은 위에 darknet 용 cfg 파일과 weight_file은 darknet 용 weig
 threshold는 객체를 탐지할 때 그 객체일 확률이 output으로 나타나게 되는데 이때 어느 정도의 확률인지 값을 입력해 주면 그 확률 이상의 객체만을 탐지하게 된다. (ex) 50% 이상만 추출을 원함 value: 0.5)
 마지막으로 컴퓨터가 인식하는 내용은 0~n까지의 숫자 값을 class 넘버를 표현하게 되는데 이때의 객체의 이름을 적어주면 된다.
 darknet을 이용하여 yolo를 학습할 때에 names 파일과 동일한 순서대로 적어주면 된다.
-마지막으로 명령창에 다음과 같이 명령어를 입력하여 주면 값을 잘 출력하는지 확인할 수 있다.
+마지막으로 명령창에 다음과 같이 명령어를 입력하여 주면 값을 잘 출력하는지 확인할 수 있다.  
 `roslaunch darknet_ros darknet_ros.launch`
+
+### 3.3 Datasets
+darknet_datasets/light.v1i.darknet: 신호등을 학습하기 위한 데이터로 초록,노랑, 빨강, 좌회전 신호로 구분되어 있음  
+darknet_datasets/secondtry.v1i.darknet: 바운딩 박스가 크게 쳐저 있는 데이터 셋, 다음과 같이 라벨링 되어 있음  
+
+<img src="src/vision3.3.jpg" width="500"/>
+
+darknet_datasets/real last.v1i.darknet: 는 정지, 주차, 신호등 으로 라벨링이 되어 있음  
 
 ## 4. Advanced lane detection using YOLOP
 
