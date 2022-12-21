@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/install
+
+Name: fast_gicp
+Description: Description of fast_gicp
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lfast_gicp
+Requires: 

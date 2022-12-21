@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/install
+
+Name: voxel
+Description: Description of voxel
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lvoxel
+Requires: roscpp

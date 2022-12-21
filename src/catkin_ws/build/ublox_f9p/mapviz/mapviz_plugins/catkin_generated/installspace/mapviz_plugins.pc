@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/install
+
+Name: mapviz_plugins
+Description: Description of mapviz_plugins
+Version: 1.4.1
+Cflags: -I${prefix}/include -I/home/kau/anaconda3/include/qt/ -I/home/kau/anaconda3/include/qt/QtCore -I/home/kau/anaconda3/.//mkspecs/linux-g++ -I/usr/include/x86_64-linux-gnu/qt5/ -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include -I/home/kau/anaconda3/include/qt/QtOpenGL -I/home/kau/anaconda3/include/qt/QtWidgets
+Libs: -L${prefix}/lib -lmapviz_plugins /home/kau/anaconda3/lib/libQt5Core.so.5.9.7 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5 /home/kau/anaconda3/lib/libQt5OpenGL.so.5.9.7 /home/kau/anaconda3/lib/libQt5Widgets.so.5.9.7
+Requires: actionlib cv_bridge gps_common image_transport mapviz marti_common_msgs marti_nav_msgs marti_sensor_msgs marti_visualization_msgs move_base_msgs nav_msgs map_msgs pluginlib roscpp sensor_msgs std_msgs stereo_msgs swri_image_util swri_math_util swri_route_util swri_transform_util swri_yaml_util tf visualization_msgs

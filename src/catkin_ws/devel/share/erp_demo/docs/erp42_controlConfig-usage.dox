@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="erp42_control" pkg="erp_demo" type="erp42_control">
+  <param name="e_stop" type="bool" value="False" />
+  <param name="gear" type="int" value="0" />
+  <param name="speed" type="int" value="0" />
+  <param name="steer" type="int" value="0" />
+  <param name="brake" type="int" value="1" />
+</node>
+\endverbatim
+

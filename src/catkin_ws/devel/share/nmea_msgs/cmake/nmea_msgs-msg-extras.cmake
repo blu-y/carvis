@@ -1,0 +1,2 @@
+set(nmea_msgs_MESSAGE_FILES "/home/kau/catkin_ws/src/nmea_msgs/msg/Gpgga.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/Gpgsa.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/Gpgsv.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/GpgsvSatellite.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/Gprmc.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/Gpgst.msg;/home/kau/catkin_ws/src/nmea_msgs/msg/Sentence.msg")
+set(nmea_msgs_SERVICE_FILES "")

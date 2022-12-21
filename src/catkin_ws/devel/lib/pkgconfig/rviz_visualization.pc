@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: rviz_visualization
+Description: Description of rviz_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

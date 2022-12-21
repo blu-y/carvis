@@ -1,0 +1,18 @@
+sudo chmod 777 /dev/tty*
+
+roslaunch vectornav vectornav.launch
+roslaunch ntrip_ros ntrip_ros.launch 
+
+cd code/
+python wgs2utm.py
+python ekf_imu_gps.py
+
+cd code/YOLOP-main/
+python line_detection2.py 
+
+roslaunch velodyne_pointcloud VLP16_points.launch
+roslaunch adaptive_clustering adaptive_clustering.launch 
+
+
+
+
