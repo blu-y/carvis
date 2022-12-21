@@ -1,0 +1,7 @@
+set(hdl_graph_slam_SETUP_PY_SETUP_MODULE "setuptools")
+set(hdl_graph_slam_SETUP_PY_VERSION "0.0.0")
+set(hdl_graph_slam_SETUP_PY_SCRIPTS "")
+set(hdl_graph_slam_SETUP_PY_PACKAGES "hdl_graph_slam")
+set(hdl_graph_slam_SETUP_PY_PACKAGE_DIRS "src/hdl_graph_slam")
+set(hdl_graph_slam_SETUP_PY_MODULES "")
+set(hdl_graph_slam_SETUP_PY_MODULE_DIRS "")

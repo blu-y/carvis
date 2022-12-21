@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="erpmini_control" pkg="erp_demo" type="erpmini_control">
+  <param name="dir" type="bool" value="True" />
+  <param name="speed" type="int" value="0" />
+  <param name="steer" type="int" value="1550" />
+  <param name="brake" type="int" value="1550" />
+  <param name="encoder_reset" type="bool" value="False" />
+</node>
+\endverbatim
+

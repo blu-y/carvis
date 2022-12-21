@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: lidar_lane_detector
+Description: Description of lidar_lane_detector
+Version: 0.0.0
+Cflags: -I/home/kau/catkin_ws/src/lidar_lane_detector/include
+Libs: -L${prefix}/lib -llidar_lane_detector
+Requires: pcl_conversions pcl_ros roscpp sensor_msgs std_msgs visualization_msgs

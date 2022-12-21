@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: lidar
+Description: Description of lidar
+Version: 0.0.0
+Cflags: -I/home/kau/catkin_ws/src/lidar/include
+Libs: -L${prefix}/lib 
+Requires: pcl pcl_conversions roscpp sensor_msgs

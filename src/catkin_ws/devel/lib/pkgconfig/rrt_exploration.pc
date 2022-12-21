@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: rrt_exploration
+Description: Description of rrt_exploration
+Version: 1.0.0
+Cflags: -I/home/kau/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

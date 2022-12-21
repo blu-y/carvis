@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~dir" : \b [bool] Direction min: False, default: True, max: True
+- \b "~speed" : \b [int] A double parameter min: 0, default: 0, max: 800
+- \b "~steer" : \b [int] A string parameter min: 1300, default: 1550, max: 1800
+- \b "~brake" : \b [int] A Boolean parameter min: 1300, default: 1550, max: 1800
+- \b "~encoder_reset" : \b [bool] A Boolean parameter min: False, default: False, max: True
+

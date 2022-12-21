@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: hdl_graph_slam
+Description: Description of hdl_graph_slam
+Version: 0.0.0
+Cflags: -I/home/kau/catkin_ws/devel/include -I/home/kau/catkin_ws/src/hdl_graph_slam/include
+Libs: -L${prefix}/lib -lhdl_graph_slam_nodelet
+Requires: geometry_msgs message_runtime nmea_msgs roscpp sensor_msgs std_msgs tf_conversions

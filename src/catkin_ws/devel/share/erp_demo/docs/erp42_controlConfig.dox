@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~e_stop" : \b [bool] An Integer parameter min: False, default: False, max: True
+- \b "~gear" : \b [int] A double parameter min: 0, default: 0, max: 2
+- \b "~speed" : \b [int] A string parameter min: 0, default: 0, max: 200
+- \b "~steer" : \b [int] A Boolean parameter min: -2000, default: 0, max: 2000
+- \b "~brake" : \b [int] A Boolean parameter min: 1, default: 1, max: 33
+

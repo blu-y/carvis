@@ -1,0 +1,6 @@
+<launch>
+    <node name="erpmini_base" pkg="erp_driver" type="ErpMiniSerialHandler.py" output="screen">
+        <param name="/port" value="/dev/ttyUSB0" type="str"/>
+        <param name="/baudrate" value="115200" type="int" />
+    </node>
+</launch>

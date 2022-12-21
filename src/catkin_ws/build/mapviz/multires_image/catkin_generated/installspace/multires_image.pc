@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/install
+
+Name: multires_image
+Description: Description of multires_image
+Version: 1.4.1
+Cflags: -I${prefix}/include -I/home/kau/anaconda3/include/qt/ -I/home/kau/anaconda3/include/qt/QtCore -I/home/kau/anaconda3/.//mkspecs/linux-g++ -I/home/kau/anaconda3/include/qt/QtGui -I/home/kau/anaconda3/include/qt/QtOpenGL -I/home/kau/anaconda3/include/qt/QtWidgets
+Libs: -L${prefix}/lib -lmultires_image -lmultires_image_plugin -lmultires_widget /home/kau/anaconda3/lib/libQt5Core.so.5.9.7 /home/kau/anaconda3/lib/libQt5Gui.so.5.9.7 /home/kau/anaconda3/lib/libQt5OpenGL.so.5.9.7 /home/kau/anaconda3/lib/libQt5Widgets.so.5.9.7
+Requires: mapviz pluginlib roscpp swri_transform_util swri_yaml_util tf

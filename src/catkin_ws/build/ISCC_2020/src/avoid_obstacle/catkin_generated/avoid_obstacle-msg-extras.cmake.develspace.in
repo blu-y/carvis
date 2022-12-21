@@ -1,0 +1,2 @@
+set(avoid_obstacle_MESSAGE_FILES "/home/kau/catkin_ws/src/ISCC_2020/src/avoid_obstacle/msg/PointObstacles.msg;/home/kau/catkin_ws/src/ISCC_2020/src/avoid_obstacle/msg/DetectedObstacles.msg;/home/kau/catkin_ws/src/ISCC_2020/src/avoid_obstacle/msg/TrueObstacles.msg")
+set(avoid_obstacle_SERVICE_FILES "")

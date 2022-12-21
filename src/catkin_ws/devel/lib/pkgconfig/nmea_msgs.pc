@@ -1,0 +1,8 @@
+prefix=/home/kau/catkin_ws/devel
+
+Name: nmea_msgs
+Description: Description of nmea_msgs
+Version: 1.1.0
+Cflags: -I/home/kau/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime
