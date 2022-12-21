@@ -42,6 +42,7 @@ dataset
 │    └──val
 └──j2y.py  ← put this file here
 ```
+
 ```
 $ cd ~/carvis/datasets/datasets_sample
 $ python3 j2y.py
@@ -71,7 +72,7 @@ VRAM 부족 현상으로 학습 시작 실패 시, batch-size를 조절한다.
 
 ### 2.3 Usage
 
-다음 명령을 사용하는 python 코드에 추가하면 YOLOv5를 사용할 수 있다.
+다음 명령을 사용하면 python 코드에 추가하면 YOLOv5를 사용할 수 있다.
 
 ```
 #model = torch.hub.load('ultralytics/yolov5', 'custom', path='traffic_light.pt', force_reload=False) #online
@@ -124,7 +125,9 @@ $ cd catkin_ws
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
 $ catkin build darnet_ros -DCMAKE_BLUID_TYPE=Release
 ```
+
 ### 3.2 Train & Usage
+
 실시간으로 데이터를 받아서 물체를 탐지하기 위하여 cam의 정보를 읽어드릴 필요가 있다.
 darknet_ros/darknet_ros/launch/darknet_ros.launch 파일의 6번째 줄의 default 안의 내용을 다음처럼 사용하는 topic으로 수정해 준다.
 `<arg name="image" default="/camera/rgb/image_raw" />`
