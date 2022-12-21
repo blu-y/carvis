@@ -1,4 +1,8 @@
-# 국제 자동차
+# 2022 국제 대학생 자동차 경진대회
+
+한국항공대학교 Team 항슬라  
+
+한국항공대학교 Team 카비스
 
 ## [1. Ubuntu Initial Setting](https://blu-y.github.io/carvis/guide/ubuntu_setting)
 

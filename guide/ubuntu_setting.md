@@ -125,7 +125,7 @@ Terminal을 재시작하면 적용된다
 ~~~
 (base)$ conda activate vision
 (vision)$ git clone https://github.com/blu-y/carvis.git
-(vision)$ cd ~/carvis/yolov5-master
+(vision)$ cd ~/carvis/src/yolov5
 (vision)$ pip install -r requirements.txt 
 (vision)$ pip install rospkg pyqt5 pyserial
 (vision)$ sudo apt install python-catkin-tools

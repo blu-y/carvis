@@ -7,14 +7,3 @@
 !datasets/datasets_sample/labels/val/.keep
 !datasets/datasets_sample/j2y_old.py
 !datasets/datasets_sample/j2y.py
-datasets/
-!datasets/.keep
-!datasets/datasets_sample/
-!datasets/datasets_sample/images/train/.keep
-!datasets/datasets_sample/images/val/.keep
-!datasets/datasets_sample/json/train/.keep
-!datasets/datasets_sample/json/val/.keep
-!datasets/datasets_sample/labels/train/.keep
-!datasets/datasets_sample/labels/val/.keep
-!datasets/datasets_sample/j2y_old.py
-!datasets/datasets_sample/j2y.py
