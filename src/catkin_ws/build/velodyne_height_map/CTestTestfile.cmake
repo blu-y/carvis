@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/kau/catkin_ws/src/velodyne_height_map
-# Build directory: /home/kau/catkin_ws/build/velodyne_height_map
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(_ctest_velodyne_height_map_rostest_tests_heightmap_node_hz.test "/home/kau/catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/kau/catkin_ws/build/test_results/velodyne_height_map/rostest-tests_heightmap_node_hz.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/kau/catkin_ws/src/velodyne_height_map --package=velodyne_height_map --results-filename tests_heightmap_node_hz.xml --results-base-dir \"/home/kau/catkin_ws/build/test_results\" /home/kau/catkin_ws/src/velodyne_height_map/tests/heightmap_node_hz.test ")
-add_test(_ctest_velodyne_height_map_rostest_tests_heightmap_nodelet_hz.test "/home/kau/catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/kau/catkin_ws/build/test_results/velodyne_height_map/rostest-tests_heightmap_nodelet_hz.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/kau/catkin_ws/src/velodyne_height_map --package=velodyne_height_map --results-filename tests_heightmap_nodelet_hz.xml --results-base-dir \"/home/kau/catkin_ws/build/test_results\" /home/kau/catkin_ws/src/velodyne_height_map/tests/heightmap_nodelet_hz.test ")

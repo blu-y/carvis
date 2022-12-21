@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/install
-
-Name: erp_driver
-Description: Description of erp_driver
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: rospy message_runtime

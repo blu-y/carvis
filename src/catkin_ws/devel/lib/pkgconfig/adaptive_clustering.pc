@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/devel
-
-Name: adaptive_clustering
-Description: Description of adaptive_clustering
-Version: 0.0.1
-Cflags: -I/home/kau/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: 

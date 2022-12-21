@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/devel
-
-Name: mapviz
-Description: Description of mapviz
-Version: 1.4.1
-Cflags: -I/home/kau/catkin_ws/devel/include -I/home/kau/catkin_ws/src/mapviz/mapviz/include -I/home/kau/anaconda3/include/qt/ -I/home/kau/anaconda3/include/qt/QtConcurrent -I/home/kau/anaconda3/include/qt/QtCore -I/home/kau/anaconda3/.//mkspecs/linux-g++ -I/home/kau/anaconda3/include/qt/QtGui -I/home/kau/anaconda3/include/qt/QtOpenGL -I/home/kau/anaconda3/include/qt/QtWidgets
-Libs: -L${prefix}/lib -lrqt_mapviz /home/kau/anaconda3/lib/libQt5Concurrent.so.5.9.7 /home/kau/anaconda3/lib/libQt5Core.so.5.9.7 /home/kau/anaconda3/lib/libQt5Gui.so.5.9.7 /home/kau/anaconda3/lib/libQt5OpenGL.so.5.9.7 /home/kau/anaconda3/lib/libQt5Widgets.so.5.9.7
-Requires: cv_bridge image_transport marti_common_msgs pluginlib rosapi roscpp rqt_gui rqt_gui_cpp std_srvs swri_transform_util swri_yaml_util tf message_runtime

@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/install
-
-Name: turtlebot_rrt
-Description: Description of turtlebot_rrt
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roslib rospy

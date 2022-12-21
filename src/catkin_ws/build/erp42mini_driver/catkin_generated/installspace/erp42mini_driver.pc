@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/install
-
-Name: erp42mini_driver
-Description: Description of erp42mini_driver
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: rospy message_runtime

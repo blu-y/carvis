@@ -1,8 +1,0 @@
-prefix=/home/kau/catkin_ws/install
-
-Name: sick_scan
-Description: Description of sick_scan
-Version: 1.3.21
-Cflags: -I${prefix}/include -I/usr/include
-Libs: -L${prefix}/lib -lsick_scan_lib /usr/lib/x86_64-linux-gnu/libboost_system.so
-Requires: message_runtime roscpp sensor_msgs diagnostic_updater dynamic_reconfigure

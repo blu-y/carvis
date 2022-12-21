@@ -1,5 +1,0 @@
-<launch>
-    <include file="$(find erp_driver)/launch/erp42_base.launch" />
-    <node name="erp42_control" pkg="erp_demo" type="erp42_demo.py" output="screen" />
-    <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" args="-s reconfigure" />
-</launch>

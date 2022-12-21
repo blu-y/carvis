@@ -1,2 +1,0 @@
-set(avoid_obstacle_MESSAGE_FILES "/home/kau/catkin_ws/src/things/avoid_obstacle/msg/PointObstacles.msg;/home/kau/catkin_ws/src/things/avoid_obstacle/msg/DetectedObstacles.msg;/home/kau/catkin_ws/src/things/avoid_obstacle/msg/TrueObstacles.msg")
-set(avoid_obstacle_SERVICE_FILES "")
