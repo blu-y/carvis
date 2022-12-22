@@ -9,7 +9,7 @@ $ sudo apt install ros-melodic-rosbridge-server
 $ sudo apt install ros-melodic-velodyne
 ~~~
 
-### 1-1. Launch
+### 1.1 Launch
 ~~~
 $ cd ~/MoraiLauncher_Lin/
 $ ./MORAISim.sh
@@ -20,7 +20,7 @@ $ ./MORAISim.sh
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ~~~
 
-### 2-1. Camera
+### 2.1 Camera
 MORAI simulator에서 F3을 눌러 카메라를 추가하고 ROS로 연결한다
 
 <img src="https://user-images.githubusercontent.com/102652794/183429535-76548a48-ab3d-43eb-bb42-f684987ee815.png" alt="sensor" width="250"/>
@@ -41,7 +41,7 @@ $ conda activate vision
 
 <img src="https://user-images.githubusercontent.com/102652794/183444521-3c0b787b-281f-438a-85b3-ede82c187e85.png" alt="curved_sim" width="900"/>
 
-### 2-2. LiDAR
+### 2.2 LiDAR
 같은 방법으로 Lidar 또한 연결할 수 있다.
 
 <img src="https://user-images.githubusercontent.com/102652794/183824024-1c9cafa1-5104-4326-a190-e000e694443a.png" alt="lidar setting" width="250"/>

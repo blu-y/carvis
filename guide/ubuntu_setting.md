@@ -14,7 +14,7 @@ If `Ctrl + Alt + T` is unavailable, use `Ctrl + Alt + F3`
 
 
 ## 4. Useful settings and softwares
-### 4-1. Korean setting
+### 4.1 Korean setting
 ~~~
 $ gnome-control-center
 ~~~
@@ -40,7 +40,7 @@ Region & Language > Input Sources > + > Korean > Korean (Hangul) > Add > English
 
 <img src="https://user-images.githubusercontent.com/102652794/183265578-fd17c0c9-52ea-4961-becd-273cf62c00c8.png" alt="ibus" width="500"/>
 
-### 4-2. Editing ~/.bashrc to use shortcut command using alias
+### 4.2 Editing ~/.bashrc to use shortcut command using alias
 `$ gedit ~/.bashrc`
 
 ~/.bashrc를 수정하여 단축키를 설정할 수 있다.
@@ -53,7 +53,7 @@ use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
 
 위 이미지대로 수정 후 한번 적용하였다면, 앞으로는 `$ source ~/.bashrc` 를 `$ sb` 로 실행할 수 있다
 
-### 4-3. Terminator
+### 4.3 Terminator
 `$ sudo apt install terminator -y`
 
 `Ctrl + Shift + E` split vertically
@@ -64,7 +64,7 @@ use alias `alias [shortcut]='[command]'` ex) `alias sb='source ~/.bashrc'`
 
 `Alt + Arrow` move between window
 
-### 4-4. Useful softwares
+### 4.4 Useful softwares
 [Chrome](https://www.google.com/chrome/)
 
 [Slack](https://slack.com/intl/ko-kr/downloads/linux)
@@ -108,7 +108,7 @@ $ source ~/.bashrc
 
 sha256sum is for validating installer file, refer to [Anaconda hashes](https://docs.anaconda.com/anaconda/install/hashes/)
 
-### 6.1. Anaconda auto activation setting 
+### 6.1 Anaconda auto activation setting 
 `$ conda config --set auto_activate_base false # auto activation off`
 
 `$ conda config --set auto_activate_base true # auto activation on`
@@ -135,13 +135,13 @@ Terminal을 재시작하면 적용된다
 ~~~
 
 ## 8. Git
-### 8-1. Setting
+### 8.1 Initial Setting
 ~~~
-$ git config --global user.name "blu"
-$ git config --global user.email "a_o@kakao.com"
+$ git config --global user.name "blu" # 본인 username
+$ git config --global user.email "a_o@kakao.com" # 본인 email
 ~~~
 
-### 8-2. First commit
+### 8.2 First commit
 ~~~
 $ git init
 $ git add .
@@ -150,7 +150,7 @@ $ git remote add origin git@github.com:blu-y/carvis.git
 $ git push origin master
 ~~~
 
-### 8-3. Modify
+### 8.3 Modify
 ~~~
 #Initialize (only on first time)
 $ mkdir carvis
