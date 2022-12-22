@@ -88,6 +88,8 @@ $ sudo rosdep init
 $ rosdep update
 ~~~
 
+**추가적으로 carvis repository 내부의 catkin_ws에 있는 패키지들은 개별적으로 apt나 github를 이용하여 다시 다운받은 후 build하는 것을 추천**
+
 ## 6. Install Anaconda & create env
 Download anaconda
 https://www.anaconda.com/products/distribution
