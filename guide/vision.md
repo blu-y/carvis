@@ -72,7 +72,7 @@ VRAM 부족 현상으로 학습 시작 실패 시, batch-size를 조절한다.
 
 ### 2.3 Usage
 
-다음 명령을 사용하면 python 코드에 추가하면 YOLOv5를 사용할 수 있다.
+다음 명령을 사용하여 python 코드에 추가하면 YOLOv5를 사용할 수 있다.
 
 ```
 #model = torch.hub.load('ultralytics/yolov5', 'custom', path='traffic_light.pt', force_reload=False) #online
