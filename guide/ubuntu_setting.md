@@ -6,7 +6,7 @@ https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 ## 3. Update ubuntu-driver
 ~~~
 $ sudo apt-get update
-$ sudo apt-get updrade
+$ sudo apt-get upgrade
 $ sudo ubuntu-drivers autoinstall
 ~~~
 
