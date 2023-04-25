@@ -9,7 +9,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo ubuntu-drivers autoinstall
 ~~~
-Change archive server to Kakao mirror (Recommended)
+Change archive server to Kakao mirror using VI editor (Recommended)
 ~~~
 $ sudo vi /etc/apt/sources.list
 :%s/kr.archive.ubuntu.com/mirror.kakao.com
