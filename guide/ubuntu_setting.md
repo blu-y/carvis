@@ -9,6 +9,12 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo ubuntu-drivers autoinstall
 ~~~
+Change archive server to Kakao mirror (Recommended)
+~~~
+$ sudo vi /etc/apt/sources.list
+:%s/kr.archive.ubuntu.com/mirror.kakao.com
+:wq!
+~~~
 
 If `Ctrl + Alt + T` is unavailable, use `Ctrl + Alt + F3`
 
