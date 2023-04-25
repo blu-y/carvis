@@ -1,3 +1,4 @@
+### Install ROS
 sudo apt update
 locale # check for UTF-8
 sudo apt install software-properties-common
@@ -13,6 +14,10 @@ sudo apt install ros-galactic-desktop
 source /opt/ros/galactic/setup.bash
 ros2 run demo_nodes_cpp talker
 
-# new terminal
+<new terminal>
 source /opt/ros/galactic/setup.bash
 ros2 run demo_nodes_py listener
+</new terminal>
+
+### Install Turtlebot
+sudo apt install ros-galactic-turtlebot4-desktop
